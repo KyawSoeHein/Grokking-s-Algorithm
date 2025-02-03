@@ -1,0 +1,25 @@
+package org.example.Algorithms.Sorting;
+
+import java.util.ArrayList;
+
+public class SelectionSort {
+    public ArrayList<Integer> start(ArrayList<Integer> arrayList) throws Exception {
+        if (null == arrayList || arrayList.isEmpty()) {
+            throw new Exception("Array needs to be valid");
+        }
+
+        ArrayList<Integer> result = new ArrayList<>();
+
+        while (!arrayList.isEmpty()) {
+            int smallest = 0;
+            for (int j = 1; j < arrayList.size(); j++) {
+                if (arrayList.get(j) < arrayList.get(smallest)) {
+                    smallest = j;
+                }
+            }
+            result.add(arrayList.remove(smallest));
+        }
+
+        return result;
+    }
+}
