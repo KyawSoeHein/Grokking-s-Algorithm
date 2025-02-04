@@ -11,15 +11,21 @@ public class SelectionSort {
         ArrayList<Integer> result = new ArrayList<>();
 
         while (!arrayList.isEmpty()) {
-            int smallest = 0;
-            for (int j = 1; j < arrayList.size(); j++) {
-                if (arrayList.get(j) < arrayList.get(smallest)) {
-                    smallest = j;
-                }
-            }
+            int smallest = findSmallest(arrayList);
             result.add(arrayList.remove(smallest));
         }
 
         return result;
+    }
+
+    private int findSmallest(ArrayList<Integer> arrayList) {
+        int smallest = 0;
+        for (int j = 1; j < arrayList.size(); j++) {
+            if (arrayList.get(j) < arrayList.get(smallest)) {
+                smallest = j;
+            }
+        }
+
+        return smallest;
     }
 }
