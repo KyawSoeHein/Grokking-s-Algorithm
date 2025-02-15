@@ -1,6 +1,5 @@
-package org.example.Algorithms;
+package org.example.Algorithms.Searching;
 
-import org.example.Algorithms.Searching.BinarySearch;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
