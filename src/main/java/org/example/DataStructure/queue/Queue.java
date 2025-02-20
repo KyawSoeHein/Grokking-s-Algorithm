@@ -1,4 +1,4 @@
-package org.example.DataStructure;
+package org.example.DataStructure.queue;
 
 import java.util.ArrayList;
 

@@ -1,6 +1,4 @@
-package org.example.DataStructure;
-
-import java.util.List;
+package org.example.DataStructure.array;
 
 public class DynamicArray {
     int[] arr = {1, 2, 3, 4, 5, 6, 7, 8};

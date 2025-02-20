@@ -1,5 +1,6 @@
 package org.example.DataStructure;
 
+import org.example.DataStructure.linkedList.DoublyLinkedList;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

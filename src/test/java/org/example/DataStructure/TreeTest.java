@@ -1,7 +1,7 @@
 package org.example.DataStructure;
 
+import org.example.DataStructure.tree.Tree;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
 
 import java.util.List;
 
