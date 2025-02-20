@@ -1,18 +1,18 @@
 package org.example.DataStructure;
 
-import org.example.DataStructure.tree.Tree;
+import org.example.DataStructure.tree.GeneralTree;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class TreeTest {
+class GeneralTreeTest {
 
     @Test
     void testAddNode() {
         List<Integer> expectedResult = List.of(1, 2, 3, 6, 4, 7, 5);
-        Tree tree = new Tree();
+        GeneralTree tree = new GeneralTree();
         tree.add(1, 0);
         tree.add(2, 1);
         tree.add(3, 2);

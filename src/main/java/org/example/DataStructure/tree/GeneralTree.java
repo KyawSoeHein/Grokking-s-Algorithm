@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class Tree {
+public class GeneralTree {
     TreeNode root = null;
 
     public static class TreeNode {
