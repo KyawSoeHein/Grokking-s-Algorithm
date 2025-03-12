@@ -1,6 +1,5 @@
-package org.example.DataStructure;
+package org.example.DataStructure.tree;
 
-import org.example.DataStructure.tree.GeneralTree;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
